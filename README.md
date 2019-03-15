@@ -1,6 +1,6 @@
 
-
-
+<pre>
+    <code>
         this.mRotateAnimation = new RotateAnimation(
                 0f, /*起始角度 0*/
                 -360f, /*旋转角度 -60度*/
@@ -17,7 +17,8 @@
 //        this.mRotateAnimation.setDetachWallpaper(true);/*未知*/
         /*正在播放的动画内容保持当前的Z轴顺序， normal top bottom*/
         this.mRotateAnimation.setZAdjustment(Animation.ZORDER_NORMAL);/*允许在动画播放期间，调整播放内容在Z轴方向的顺序*/
-
+    </code>
+<pre>
 
         <set xmlns:android="http://schemas.android.com/apk/res/android"
             android:duration="1000"
